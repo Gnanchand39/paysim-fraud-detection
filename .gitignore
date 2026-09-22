@@ -1,0 +1,32 @@
+# Data (too large for git, and not ours to redistribute)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Models (experimental models can be large; regenerate via notebooks/scripts)
+models/*.pkl
+models/*.joblib
+# Exception: the final portfolio model is small (~788K) and is committed on purpose.
+!models/final_xgboost_fraud_detector.joblib
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml

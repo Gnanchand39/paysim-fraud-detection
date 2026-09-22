@@ -1,0 +1,209 @@
+{
+  "model_a_unweighted": {
+    "class_weight": null,
+    "training_time_sec": 10.467633724212646,
+    "n_iter": [
+      17
+    ],
+    "converged": true,
+    "validation_metrics": {
+      "threshold": 0.5,
+      "precision": 0.9418604651162791,
+      "recall": 0.2872340425531915,
+      "f1": 0.44021739130434784,
+      "roc_auc": 0.9952286758721096,
+      "pr_auc": 0.5551388227521988,
+      "confusion_matrix": {
+        "tn": 979842,
+        "fp": 10,
+        "fn": 402,
+        "tp": 162
+      }
+    },
+    "test_metrics": {
+      "threshold": 0.5,
+      "precision": 0.9983566146261298,
+      "recall": 0.3032950574138792,
+      "f1": 0.4652498564043653,
+      "roc_auc": 0.9933521167367757,
+      "pr_auc": 0.7572331201246805,
+      "confusion_matrix": {
+        "tn": 914609,
+        "fp": 2,
+        "fn": 2791,
+        "tp": 1215
+      },
+      "label": "FINAL TEST RESULTS - not used for model selection"
+    },
+    "at_k_validation": [
+      {
+        "k": 100,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.1773049645390071,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 0.606,
+        "recall_at_k": 0.5372340425531915,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 0.331,
+        "recall_at_k": 0.5868794326241135,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.0854,
+        "recall_at_k": 0.7570921985815603,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.0479,
+        "recall_at_k": 0.849290780141844,
+        "skipped_reason": null
+      }
+    ],
+    "at_k_test": [
+      {
+        "k": 100,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.02496255616575137,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.12481278082875687,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.24962556165751373,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.5844,
+        "recall_at_k": 0.7294058911632552,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.3339,
+        "recall_at_k": 0.8334997503744384,
+        "skipped_reason": null
+      }
+    ]
+  },
+  "model_b_balanced": {
+    "class_weight": "balanced",
+    "training_time_sec": 12.459114074707031,
+    "n_iter": [
+      34
+    ],
+    "converged": true,
+    "validation_metrics": {
+      "threshold": 0.5,
+      "precision": 0.01539360872954014,
+      "recall": 0.9804964539007093,
+      "f1": 0.030311335233501425,
+      "roc_auc": 0.9949832794983107,
+      "pr_auc": 0.18996340356221833,
+      "confusion_matrix": {
+        "tn": 944481,
+        "fp": 35371,
+        "fn": 11,
+        "tp": 553
+      }
+    },
+    "test_metrics": {
+      "threshold": 0.5,
+      "precision": 0.11551781250941066,
+      "recall": 0.9575636545182227,
+      "f1": 0.2061645124015801,
+      "roc_auc": 0.9939550125332497,
+      "pr_auc": 0.6603612722567541,
+      "confusion_matrix": {
+        "tn": 885240,
+        "fp": 29371,
+        "fn": 170,
+        "tp": 3836
+      },
+      "label": "FINAL TEST RESULTS - not used for model selection"
+    },
+    "at_k_validation": [
+      {
+        "k": 100,
+        "precision_at_k": 0.55,
+        "recall_at_k": 0.0975177304964539,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 0.264,
+        "recall_at_k": 0.23404255319148937,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 0.196,
+        "recall_at_k": 0.3475177304964539,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.081,
+        "recall_at_k": 0.7180851063829787,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.0466,
+        "recall_at_k": 0.8262411347517731,
+        "skipped_reason": null
+      }
+    ],
+    "at_k_test": [
+      {
+        "k": 100,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.02496255616575137,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 0.996,
+        "recall_at_k": 0.12431352970544184,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 0.979,
+        "recall_at_k": 0.24438342486270595,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.5094,
+        "recall_at_k": 0.6357963055416874,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.3099,
+        "recall_at_k": 0.7735896155766351,
+        "skipped_reason": null
+      }
+    ]
+  },
+  "_meta": {
+    "threshold_used": 0.5,
+    "note": "Threshold 0.5 is a baseline operating point only; threshold optimization is a separate future step.",
+    "test_set_warning": "Test fraud rate (0.4361%) is far higher than train (0.0816%) because PaySim's legitimate transaction volume collapses in later simulated days while fraud counts stay roughly constant. Test metrics are not comparable to train prevalence and are not used to choose between Model A and Model B."
+  }
+}

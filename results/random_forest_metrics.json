@@ -1,0 +1,223 @@
+{
+  "model_c_unweighted": {
+    "class_weight": null,
+    "training_time_sec": 208.10161781311035,
+    "tree_depth": {
+      "min_depth": 16,
+      "mean_depth": 19.835,
+      "max_depth": 20,
+      "n_trees": 200
+    },
+    "validation_metrics": {
+      "threshold": 0.5,
+      "precision": 0.998220640569395,
+      "recall": 0.9946808510638298,
+      "f1": 0.9964476021314387,
+      "roc_auc": 0.9999999095246197,
+      "pr_auc": 0.9998468712974573,
+      "confusion_matrix": {
+        "tn": 979851,
+        "fp": 1,
+        "fn": 3,
+        "tp": 561
+      }
+    },
+    "test_metrics": {
+      "threshold": 0.5,
+      "precision": 0.9989964877069744,
+      "recall": 0.9940089865202196,
+      "f1": 0.9964964964964965,
+      "roc_auc": 0.9999984247795739,
+      "pr_auc": 0.9997037780304402,
+      "confusion_matrix": {
+        "tn": 914607,
+        "fp": 4,
+        "fn": 24,
+        "tp": 3982
+      },
+      "label": "FINAL TEST RESULTS - not used for model selection"
+    },
+    "at_k_validation": [
+      {
+        "k": 100,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.1773049645390071,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.8865248226950354,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 0.564,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.1128,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.0564,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      }
+    ],
+    "at_k_test": [
+      {
+        "k": 100,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.02496255616575137,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.12481278082875687,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.24962556165751373,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.8008,
+        "recall_at_k": 0.9995007488766849,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.4006,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      }
+    ]
+  },
+  "model_d_balanced_subsample": {
+    "class_weight": "balanced_subsample",
+    "training_time_sec": 185.8562672138214,
+    "tree_depth": {
+      "min_depth": 16,
+      "mean_depth": 19.965,
+      "max_depth": 20,
+      "n_trees": 200
+    },
+    "validation_metrics": {
+      "threshold": 0.5,
+      "precision": 0.9982142857142857,
+      "recall": 0.9911347517730497,
+      "f1": 0.994661921708185,
+      "roc_auc": 0.9999993033395722,
+      "pr_auc": 0.9990870648091855,
+      "confusion_matrix": {
+        "tn": 979851,
+        "fp": 1,
+        "fn": 5,
+        "tp": 559
+      }
+    },
+    "test_metrics": {
+      "threshold": 0.5,
+      "precision": 0.9997463860005072,
+      "recall": 0.9840239640539191,
+      "f1": 0.9918228708013587,
+      "roc_auc": 0.9999998066284896,
+      "pr_auc": 0.9999565675634764,
+      "confusion_matrix": {
+        "tn": 914610,
+        "fp": 1,
+        "fn": 64,
+        "tp": 3942
+      },
+      "label": "FINAL TEST RESULTS - not used for model selection"
+    },
+    "at_k_validation": [
+      {
+        "k": 100,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.1773049645390071,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.8865248226950354,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 0.564,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.1128,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.0564,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      }
+    ],
+    "at_k_test": [
+      {
+        "k": 100,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.02496255616575137,
+        "skipped_reason": null
+      },
+      {
+        "k": 500,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.12481278082875687,
+        "skipped_reason": null
+      },
+      {
+        "k": 1000,
+        "precision_at_k": 1.0,
+        "recall_at_k": 0.24962556165751373,
+        "skipped_reason": null
+      },
+      {
+        "k": 5000,
+        "precision_at_k": 0.8012,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      },
+      {
+        "k": 10000,
+        "precision_at_k": 0.4006,
+        "recall_at_k": 1.0,
+        "skipped_reason": null
+      }
+    ]
+  },
+  "_meta": {
+    "threshold_used": 0.5,
+    "configuration": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "n_jobs": -1,
+      "random_state": 42
+    },
+    "no_hyperparameter_tuning": true,
+    "important_caveat": "Both Random Forest models achieve near-perfect metrics (ROC-AUC ~1.0000, PR-AUC ~0.9997-1.0000). This is NOT evidence of an excellent generalizable fraud detector -- it reflects the model's ability to exploit the near-deterministic 'drained sender account' simulation artifact documented in Steps 2 and 3 (amount_to_sender_balance / amount_exceeds_sender_balance), which a nonlinear tree model can threshold on far more precisely than a linear model. Treat these numbers with suspicion, not as a generalizable achievement -- see notebook section 15 (Limitations).",
+    "test_set_warning": "Test fraud rate (0.4361%) is far higher than train (0.0816%) due to the documented late-period legitimate-volume collapse (Steps 2/4). Test metrics are not comparable to train prevalence and were not used to select between Model C and Model D."
+  }
+}
