@@ -205,7 +205,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Download the PaySim CSV (see `src/data_utils.py` for the expected location, `data/raw/`) if you want to re-run the data/feature-engineering notebooks from scratch. The pre-built processed splits, trained models, and results are already included under `data/processed/`, `models/`, and `results/`.
+This repository includes the source code, notebooks, figures, result tables, and the **final trained model** (`models/final_xgboost_fraud_detector.joblib`). It does **not** include the raw PaySim CSV (~493 MB), the generated processed Parquet datasets (~831 MB — the full feature set plus train/validation/test splits), or the other experimental model files (Logistic Regression, Random Forest, and intermediate XGBoost variants) — these are excluded due to their size and are not needed to review the code or use the final model. To re-run the data/feature-engineering notebooks from scratch, download the PaySim CSV yourself (see `src/data_utils.py` for the expected location, `data/raw/`) and regenerate the processed datasets by running the notebooks in order.
 
 Run the Streamlit demo:
 
