@@ -1,5 +1,7 @@
 # Mobile-Money Fraud Detection using PaySim
 
+🚀 **Live Demo:** [Try the Fraud Detection App](https://paysim-fraud-detection-2p8ngqb7awezj2cpw3wkid.streamlit.app/)
+
 ## Overview
 
 This project builds an end-to-end fraud-detection workflow on **PaySim**, a synthetic mobile-money transaction dataset. Given a transaction, the task is to estimate the probability that it is fraudulent, using only information that would genuinely be available *before* the transaction is executed.
